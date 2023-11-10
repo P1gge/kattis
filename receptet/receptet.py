@@ -4,9 +4,7 @@ tot = 0
 
 for i in range(N):
     H, B, K = input().split()
-    if int(H) >= int(B):
-        tot += 0
-    else:
+    if int(H) < int(B):
         tot += abs(int(B)-int(H)) * int(K)
-
+        
 print(tot)
