@@ -1,7 +1,6 @@
 N = int(input())
 
-les = input()
-lek = list(map(int, les.split()))
+les = list(map(int, input().split()))
 
 skip = 0
 empty = 0
